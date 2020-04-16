@@ -1,0 +1,34 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+[module]
+[[module.mounts]]
+  source = "content/documents"
+  target = "content"
+
+[[module.mounts]]
+  source = "content/images"
+  target = "assets/images"
+
+[[module.mounts]]
+  source = "static"
+  target = "static"
+
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+
+[[module.mounts]]
+  source = "data"
+  target = "data"
+
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+
+[[module.mounts]]
+  source = "archetypes"
+  target = "archetypes"
