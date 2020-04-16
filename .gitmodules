@@ -4,3 +4,6 @@
 [submodule "content/sample-content-repo"]
 	path = content/sample-content-repo
 	url = https://github.com/YashJipkate/sample-content-repo
+[submodule "sample-content-repo"]
+	path = sample-content-repo
+	url = https://github.com/YashJipkate/sample-content-repo
