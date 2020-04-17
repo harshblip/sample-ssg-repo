@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "ananke"
+theme = "ananke-v2"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 [module]
