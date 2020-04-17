@@ -13,4 +13,4 @@ rm master.zip
 rm v1.5.zip
 rm v1.0.zip
 
-hugo
+hugo --minify
