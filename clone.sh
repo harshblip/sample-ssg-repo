@@ -12,3 +12,5 @@ unzip v1.0.zip && mv sample-content-repo-1.0 content/v1.0
 rm master.zip
 rm v1.5.zip
 rm v1.0.zip
+
+hugo
