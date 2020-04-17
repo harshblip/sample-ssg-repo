@@ -6,12 +6,20 @@ theme = "ananke"
   home = ["HTML", "RSS", "JSON"]
 [module]
 [[module.mounts]]
-  source = "content/documents"
+  source = "content"
   target = "content"
 
 [[module.mounts]]
   source = "content/images"
   target = "assets/images"
+
+[[module.mounts]]
+  source = "content/v1.0/images"
+  target = "assets/v1.0/images"
+
+[[module.mounts]]
+  source = "content/v1.5/images"
+  target = "assets/v1.5/images"
 
 [[module.mounts]]
   source = "static"
